@@ -1,0 +1,135 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: blanchedalmond;
+  color: #333;
+}
+header {
+  background: #004080;
+  color: blanchedalmond;
+  text-align: center;
+  padding: 15px 0;
+}
+.logo {
+  width: 80px;
+  height: auto;
+}
+nav {
+  background: #003366;
+  text-align: center;
+  padding: 10px 0;
+}
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 500;
+}
+/* nav a:hover { */
+  /* color: blanchedalmond; */
+  /* border-bottom: 2px solid #ffcc00; */
+/* } */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+.hero h2 {
+  color: #004080;
+}
+.btn {
+  display: inline-block;
+  background: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #0056b3;
+}
+footer {
+  text-align: center;
+  background: #004080;
+  color: blanchedalmond;
+  padding: 10px 0;
+  margin-top: 40px;
+}
+.lab-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.lab-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin: 20px;
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+}
+.lab-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.form-box {
+  background: white;
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.form-box h2 {
+  text-align: center;
+  color: #004080;
+}
+.form-box label {
+  display: block;
+  margin-top: 10px;
+}
+.form-box input, .form-box select, .form-box textarea, .form-box button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.form-box button {
+  background: #007bff;
+  color: white;
+  border: none;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.form-box button:hover {
+  background: #0056b3;
+}
+.dashboard {
+  text-align: center;
+  padding: 20px;
+}
+.stats {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.card {
+  background: #007bff;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 10px;
+  margin: 10px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  background: blanchedalmond;
+  margin: 8px auto;
+  width: 60%;
+  border-radius: 5px;
+  padding: 10px;
+}
