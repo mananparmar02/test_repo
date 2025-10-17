@@ -1,12 +1,12 @@
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
-  background: blanchedalmond;
+  background: white;
   color: #333;
 }
 header {
-  background: #004080;
-  color: blanchedalmond;
+  background: #550176;
+  color: white;
   text-align: center;
   padding: 15px 0;
 }
@@ -15,7 +15,7 @@ header {
   height: auto;
 }
 nav {
-  background: #003366;
+  background: #380066;
   text-align: center;
   padding: 10px 0;
 }
@@ -34,23 +34,23 @@ nav a {
   padding: 80px 20px;
 }
 .hero h2 {
-  color: #004080;
+  color: #460080;
 }
 .btn {
   display: inline-block;
-  background: #007bff;
+  background: #a600ff;
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;
 }
 .btn:hover {
-  background: #0056b3;
+  background: #7100b3;
 }
 footer {
   text-align: center;
-  background: #004080;
-  color: blanchedalmond;
+  background: #550176;
+  color: white;
   padding: 10px 0;
   margin-top: 40px;
 }
@@ -60,7 +60,7 @@ footer {
   flex-wrap: wrap;
 }
 .lab-card {
-  background: white;
+  background: rgba(123, 3, 159, 0.388);
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   margin: 20px;
@@ -73,7 +73,7 @@ footer {
   border-radius: 10px;
 }
 .form-box {
-  background: white;
+  background: rgba(123, 3, 159, 0.388);
   max-width: 400px;
   margin: 40px auto;
   padding: 20px;
@@ -96,14 +96,14 @@ footer {
   border-radius: 5px;
 }
 .form-box button {
-  background: #007bff;
+  background: #cc00ff;
   color: white;
   border: none;
   margin-top: 15px;
   cursor: pointer;
 }
 .form-box button:hover {
-  background: #0056b3;
+  background: #b300ad;
 }
 .dashboard {
   text-align: center;
@@ -116,7 +116,7 @@ footer {
   margin-bottom: 20px;
 }
 .card {
-  background: #007bff;
+  background: #c800ff;
   color: white;
   padding: 15px 30px;
   border-radius: 10px;
@@ -127,7 +127,7 @@ ul {
   padding: 0;
 }
 ul li {
-  background: blanchedalmond;
+  background: white;
   margin: 8px auto;
   width: 60%;
   border-radius: 5px;
